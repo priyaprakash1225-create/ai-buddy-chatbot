@@ -1,0 +1,15 @@
+/*
+ * index.css
+ * ---------
+ * Tailwind CSS base imports.
+ * @tailwind directives are replaced by Tailwind's generated CSS during build.
+ */
+
+/* Base styles: resets, box-sizing, etc. */
+@tailwind base;
+
+/* Reusable component classes (buttons, cards, etc.) */
+@tailwind components;
+
+/* Utility classes like p-4, text-blue-500, flex, etc. */
+@tailwind utilities;
